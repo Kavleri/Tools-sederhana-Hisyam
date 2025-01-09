@@ -27,7 +27,7 @@ if [ $bro = 1 ] || [ $bro = 1 ]
 then
 clear
 toilet -f big -F gay Mr. Hisyam
-echo $green"menstabilkan jaringan Termux"
+echo $green"menstabilkan jaringan Server"
 sleep 2
 echo
 ping -s1000 1.1.1.1
@@ -38,7 +38,7 @@ then
 clear
 toilet -f big -F gay Mr.Hisyam
 echo $blue"======================================================"
-echo $cyan"Inilah IP Adress Termux Mr.Hisyam"
+echo $cyan"Inilah IP Adress Server Mr.Hisyam"
 echo
 ifconfig
 echo $blue"======================================================"
