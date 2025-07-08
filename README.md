@@ -48,3 +48,61 @@ sudo dnf install toilet figlet net-tools
 ```bash
 sudo pacman -S toilet figlet net-tools
 ```
+
+<i>Catatan: `net-tools` diperlukan untuk perintah `ifconfig`. Beberapa distribusi modern mungkin menggunakan `ip a` sebagai alternatif, tetapi skrip ini mengandalkan `ifconfig`.</i>
+
+## Instalasi dan Penggunaan
+
+-   **Kloning repositori**ini ke sistem lokal Anda:
+
+   ```bash
+   git clone [https://github.com/NamaPenggunaAnda/nama-repositori-anda.git](https://github.com/NamaPenggunaAnda/nama-repositori-anda.git)
+   cd nama-repositori-anda
+   ```
+
+-   **Berikan izin eksekusi**pada skrip:
+
+   ```bash
+   chmod +x mynetwork.sh
+   ```
+
+-   **Jalankan skrip**dari terminal Anda:
+
+    ```bash
+   ./mynetwork.sh
+    ```
+
+# Cara Kerja
+
+  Setelah menjalankan `mynetwork.sh`, Anda akan disambut dengan menu interaktif:
+
+  ```bash
+  Mr . Hisyam
+Selamat Datang Tuan
+
+Silahkan pilih toolsnya :
+
+1.) Stabilkan jaringan
+
+2.) Cek IP Adress
+
+0.) Keluar saja!
+
+pilih yang mana :
+  ```
+
+-   **Pilih 1 untuk menstabilkan jaringan**: Skrip akan menjalankan `ping -s1000 1.1.1.1`. Ini akan mengirimkan paket ICMP berukuran 1000 byte ke Cloudflare DNS (1.1.1.1). Ini adalah cara efektif untuk memeriksa stabilitas koneksi Anda dan melihat potensi packet loss atau latency.
+-   **Pilih 2 untuk cek IP Address**Skrip akan menjalankan `ifconfig` dan menampilkan semua konfigurasi antarmuka jaringan aktif, termasuk alamat IP, netmask, dan alamat MAC.
+
+-   **Pilih 0 untuk keluar**: Skrip akan menampilkan pesan keluar dan mengakhiri eksekusi.
+
+-   **Input tidak valid**: Jika Anda memasukkan pilihan yang tidak tersedia, skrip akan memberi tahu Anda dan mengulang menu.
+
+
+# Kontribusi
+
+Kontribusi selalu diterima! Jika Anda memiliki ide untuk peningkatan, perbaikan bug, atau fitur baru, silakan buka issue atau kirimkan pull request.
+
+# Lisensi
+
+Skrip ini dirilis di bawah lisensi <a href>MIT License</a>. Anda bebas untuk menggunakan, memodifikasi, dan mendistribusikan ulang skrip ini sesuai ketentuan lisensi.
