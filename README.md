@@ -70,7 +70,7 @@ sudo pacman -S toilet figlet net-tools
 
     ```bash
    ./mynetwork.sh
-    ```
+      ```
 
 # Cara Kerja
 
