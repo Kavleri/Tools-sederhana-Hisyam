@@ -56,7 +56,7 @@ sudo pacman -S toilet figlet net-tools
 -   **Kloning repositori**ini ke sistem lokal Anda:
 
    ```bash
-   git clone [https://github.com/NamaPenggunaAnda/nama-repositori-anda.git](https://github.com/NamaPenggunaAnda/nama-repositori-anda.git)
+   git clone https://github.com/Kavleri/Tools-sederhana-Hisyam.git
    cd nama-repositori-anda
    ```
 
