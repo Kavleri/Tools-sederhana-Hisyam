@@ -105,4 +105,4 @@ Kontribusi selalu diterima! Jika Anda memiliki ide untuk peningkatan, perbaikan 
 
 # Lisensi
 
-Skrip ini dirilis di bawah lisensi <a href>MIT License</a>. Anda bebas untuk menggunakan, memodifikasi, dan mendistribusikan ulang skrip ini sesuai ketentuan lisensi.
+Skrip ini dirilis di bawah lisensi <a href="https://github.com/Kavleri/Tools-sederhana-Hisyam/blob/main/LICENSE">MIT License</a>. Anda bebas untuk menggunakan, memodifikasi, dan mendistribusikan ulang skrip ini sesuai ketentuan lisensi.
