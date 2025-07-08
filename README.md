@@ -69,7 +69,7 @@ sudo pacman -S toilet figlet net-tools
 -   **Jalankan skrip**dari terminal Anda:
 
   ```bash
-    ./mynetwork.sh
+   ./mynetwork.sh
   ```
 
 # Cara Kerja
